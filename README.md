@@ -1,5 +1,4 @@
 # go-cli-example
 
-* go install
-
-* go-cli-example help
+1. go install
+2. go-cli-example help
