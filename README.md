@@ -1,6 +1,8 @@
 # go-cli-example
 
 ```
+user> go get github.com/empitsu0813/go-cli-example
+user> cd $GOPATH/src/github.com/empitsu0813/go-cli-example
 user> ~/d/g/s/g/e/go-cli-example> go install
 user> ~/d/g/s/g/e/go-cli-example> go-cli-example -h
 NAME:
