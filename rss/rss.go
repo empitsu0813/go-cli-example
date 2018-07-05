@@ -30,7 +30,7 @@ func (h HatenaItems) Less(i, j int) bool {
 	return h[j].Hatebu < h[i].Hatebu
 }
 
-func RssReader(URL) {
+func RssReader(URL string) {
 	fp := gofeed.NewParser()
 
 	feed, _ := fp.ParseURL(URL)

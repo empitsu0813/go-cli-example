@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/empitsu0813/go-rss-hatena"
+	"github.com/empitsu0813/go-cli-example/rss"
 	"github.com/urfave/cli"
 )
 
@@ -65,6 +65,7 @@ func main() {
 
 				var feed string
 				if URL != nil {
+
 					rss.RssReader(URL)
 				}
 
